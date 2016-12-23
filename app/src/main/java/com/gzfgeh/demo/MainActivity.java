@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         RedHotView view = (RedHotView) findViewById(R.id.hot_one);
-        view.setText("110");
+        view.setText("909");
     }
 }

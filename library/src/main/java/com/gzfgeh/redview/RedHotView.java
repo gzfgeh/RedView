@@ -93,11 +93,11 @@ public class RedHotView extends View {
             isFirst = false;
             originWidth = w;
             originHeight = h;
-            originRadius = Math.min(originWidth, originHeight) / 2;
+            originRadius = Math.max(originWidth, originHeight) / 2;
             curRadius = originRadius;
             touchedPointRadius = originRadius;
 
-            maxMoveLength = getHeightInPx(context) / 6;
+            maxMoveLength = getHeightInPx(context) / 3;
             refreshStartPoint();
         }
     }
